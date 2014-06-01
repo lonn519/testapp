@@ -1,3 +1,10 @@
+Template.questionsList.helpers({
+  questions: function() {
+    return Questions.find();
+  }
+});
+
+/*
 var questionsData = [
   {
     title: 'Introducing Telescope',
@@ -18,3 +25,4 @@ var questionsData = [
 Template.questionsList.helpers({
   questions: questionsData
 });
+*/
